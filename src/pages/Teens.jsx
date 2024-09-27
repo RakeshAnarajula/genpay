@@ -118,8 +118,8 @@ const faqItems = [
 ];
 const Teens = () => {
   return (
-    <div className="min-h-screen">
-      <main className="container mx-auto px-4 py-5 bg-green-50">
+    <div className="min-h-screen bg-green-50 flex flex-col">
+      <main className="container mx-auto px-4 py-5">
         <AnimatedSection>
   <section className="text-center mb-16 py-20">
     <div className="flex flex-col items-center mb-6">

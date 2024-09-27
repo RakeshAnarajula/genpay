@@ -107,7 +107,7 @@ const ContactUs = () => {
             </div>
             <div className="md:w-1/3 p-4 flex justify-center items-center">
               <img 
-                src="/contactus.jpg" 
+                src="/contactus.png" 
                 alt="Contact Us" 
                 className="w-full max-w-xs rounded-lg"
                 data-aos="zoom-in" // Image animation

@@ -8,9 +8,10 @@ const Aboutus = () => {
   }, []);
   return (
     <div className="bg-gradient-to-b from-green-100 to-blue-100 min-h-screen pt-20">
-      <p className="text-3xl text-green-900 font-bold py-5 text-center">Empowering the next generation with financial literacy</p>
-      <section className="max-w-6xl mx-auto bg-white rounded-lg shadow-lg p-8 flex flex-col md:flex-row items-center" data-aos="fade-up">
-        <div className="md:w-1/2 pr-8">
+      <div className="p-5">
+      <p className="text-3xl text-green-900 font-bold py-5 text-center ">Empowering the next generation with financial literacy</p>
+      <section className="max-w-6xl mx-auto bg-white rounded-lg shadow-lg p-8 flex flex-col md:flex-row items-center " data-aos="fade-up">
+        <div className="md:w-1/2 pr-8 ">
           <h2 className="text-3xl font-semibold text-green-600 mb-4">Our Story</h2>
           <p className="text-gray-700 mb-4">
             GenZPay was born from a simple observation: many teenagers lack basic financial knowledge. 
@@ -88,7 +89,8 @@ const Aboutus = () => {
           ))}
         </div>
       </section>
-      <footer className="bg-gray-700 text-white py-12">
+      </div>
+      <footer className=" bg-gray-700 text-white py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="mb-8 md:mb-0">
