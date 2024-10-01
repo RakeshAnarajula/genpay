@@ -21,11 +21,11 @@ const Hero = ({ scrollToFeatures }) => {
     visible: { opacity: 1, x: 0, transition: { duration: 0.8 } },
   };
   return (
-    <div className="relative min-h-screen w-full overflow-hidden">
+    <div className="relative h-screen w-full overflow-hidden p-4 pt-10 py-20">
       <img
-        src="/genpay hero.png"
+        src="/genpay hero1.png"
         alt="GenPay Background"
-        className="absolute inset-0 w-full h-full md:object-cover object-fill"
+        className="absolute inset-0 w-auto h-full  object-fill"
       />
       <div className="absolute inset-0 bg-black opacity-10" />
       <motion.div

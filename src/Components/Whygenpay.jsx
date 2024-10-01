@@ -51,7 +51,7 @@ AnimatedImage.propTypes = {
 };
 const GenZPayLanding = () => {
   return (
-    <div className="min-h-screen bg-green-200 p-8">
+    <div className="min-h-screen bg-green-200 p-12 ">
       <AnimatedSection>
         <header className="text-center mb-12">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Why GenZPay?</h1>

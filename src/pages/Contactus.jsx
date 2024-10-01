@@ -89,7 +89,7 @@ const ContactUs = () => {
                     name="message"
                     rows="4"
                     required
-                    className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                    className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-lg sm:text-lg border-gray-300 rounded-md pl-2"
                     value={formData.message}
                     onChange={handleChange}
                   ></textarea>
@@ -153,9 +153,9 @@ const ContactUs = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="#" className="hover:text-gray-200 transition duration-300"><Facebook size={24} /></a>
-                <a href="#" className="hover:text-gray-200 transition duration-300"><Twitter size={24} /></a>
-                <a href="#" className="hover:text-gray-200 transition duration-300"><Instagram size={24} /></a>
+                <a href="https://www.facebook.com/" className="hover:text-gray-200 transition duration-300"><Facebook size={24} /></a>
+                <a href="https://x.com/" className="hover:text-gray-200 transition duration-300"><Twitter size={24} /></a>
+                <a href="https://www.instagram.com/" className="hover:text-gray-200 transition duration-300"><Instagram size={24} /></a>
                 <a href="mailto:info@genzpay.app" className="hover:text-gray-200 transition duration-300"><Mail size={24} /></a>
               </div>
             </div>

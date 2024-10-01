@@ -32,7 +32,7 @@ const Feature = React.forwardRef((props, ref) => {
     { icon: Lock, title: "Instant Card Control", description: "Block or pause your card instantly with a single tap for total peace of mind." }
   ];
   return (
-    <div className="bg-green-100 py-10" ref={ref}>
+    <div className="bg-green-100 pt-20 pb-12" ref={ref}>
       <div className="container mx-auto px-4">
         <h2 className="mb-4 text-3xl font-bold text-center text-gray-900">Empower Your Financial Future</h2>
         <p className="mb-12 text-xl text-center text-gray-800">Discover the amazing features that make GenZPay the ultimate financial companion for the next generation.</p>
