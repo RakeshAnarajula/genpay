@@ -5,13 +5,14 @@ const iconColors = [
   'text-blue-500', 'text-green-500', 'text-purple-500',
   'text-yellow-500', 'text-red-500', 'text-indigo-500',
   'text-pink-500', 'text-teal-500', 'text-orange-500'
-];
+]; 
 const FeatureCard = ({ icon: Icon, title, description, color }) => (
   <div className="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1 cursor-pointer">
-    <Icon className={`w-16 h-16 mb-4 ${color}`} />
+    <Icon className={`w-16 h-16 mb-4 ${color}`} />  
     <h3 className="mb-3 text-xl font-semibold text-gray-800">{title}</h3>
     <p className=" text-center text-gray-600">{description}</p>
   </div>
+  
 );
 FeatureCard.propTypes = {
   icon: PropTypes.elementType.isRequired,
@@ -38,7 +39,7 @@ const Feature = React.forwardRef((props, ref) => {
         <p className="mb-12 text-xl text-center text-gray-800">Discover the amazing features that make GenZPay the ultimate financial companion for the next generation.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <FeatureCard key={index} {...feature} color={iconColors[index % iconColors.length]} />
+            <FeatureCard key={index} {...feature} color={iconColors[index % iconColors.length]} /> 
           ))}
         </div>
       </div>
@@ -46,5 +47,5 @@ const Feature = React.forwardRef((props, ref) => {
   );
 });
 Feature.displayName = 'Feature';
-
 export default Feature;
+  

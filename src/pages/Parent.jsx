@@ -252,6 +252,17 @@ const Footer = () => {
             </div>
             <p>&copy; {new Date().getFullYear()} GenZPay. All rights reserved.</p>
           </div>
+          <p className="text-sm mt-4">
+              Designed and Developed by{' '}
+              <a
+                href="https://www.virtutechsolutions.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-blue-400"
+              >
+                Virtu Tech Solutions
+              </a>
+            </p>
         </div>
       </div>
     </footer>

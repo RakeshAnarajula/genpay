@@ -1,5 +1,6 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Mail, CreditCard, PiggyBank, BarChart, Shield } from 'lucide-react';
+
 const Footer = () => {
   return (
     <footer className="bg-gray-700 text-white py-12">
@@ -9,7 +10,6 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4">GenZPay</h3>
             <p className="text-sm">Empowering the next generation with financial literacy and responsibility.</p>
           </div>
-          
           <div>
             <h4 className="text-lg font-semibold mb-4">Key Features</h4>
             <ul className="space-y-2">
@@ -31,25 +31,22 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <p className="text-sm mb-2">MONTECASINO 234 CALLE PINO, TOA ALTA, PR, USA. ZIP-00953</p>
             <p className="text-sm mb-2">Email: info@genzpay.app</p>
             <p className="text-sm">Phone: +1 (787) 387-9807</p>
           </div>
-          
           <div>
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-gray-200 transition duration-300"><Facebook size={24} /></a>
-              <a href="#" className="hover:text-gray-200 transition duration-300"><Twitter size={24} /></a>
-              <a href="#" className="hover:text-gray-200 transition duration-300"><Instagram size={24} /></a>
+              <a href="https://www.facebook.com/" className="hover:text-gray-200 transition duration-300"><Facebook size={24} /></a>
+              <a href="https://x.com/" className="hover:text-gray-200 transition duration-300"><Twitter size={24} /></a>
+              <a href="https://www.instagram.com" className="hover:text-gray-200 transition duration-300"><Instagram size={24} /></a>
               <a href="mailto:info@genzpay.app" className="hover:text-gray-200 transition duration-300"><Mail size={24} /></a>
             </div>
           </div>
         </div>
-
         <div className="mt-12 pt-8 border-t border-white/10 text-center">
           <div className="flex flex-col items-center">
             <div className="flex space-x-4 mb-4">
@@ -58,6 +55,17 @@ const Footer = () => {
               <a href="#" className="text-sm hover:underline">FAQ</a>
             </div>
             <p>&copy; {new Date().getFullYear()} GenZPay. All rights reserved.</p>
+            <p className="text-sm mt-4">
+              Designed and Developed by{' '}
+              <a
+                href="https://www.virtutechsolutions.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-blue-400"
+              >
+                Virtu Tech Solutions
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -65,4 +73,4 @@ const Footer = () => {
   );
 };
 
-export default Footer
+export default Footer;
